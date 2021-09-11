@@ -85,7 +85,7 @@ _Challenges:_ change old CBOSS solution to Ericsson BSCS without effort to subsc
 ---
 ### Soft Skills
 **✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭...........................**    English Level B1. I was involved to few projects with European, USA and Chinese customers, can quite freely communicate with a team, read and write technical documentation.  
-**✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭...** Responsible and highly motivated learner and hardworker.  
+**✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭✭...**   Responsible and highly motivated learner and hardworker.  
 
 ---
 
