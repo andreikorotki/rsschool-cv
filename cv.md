@@ -26,6 +26,19 @@
 
 ---
 
+### Code Example
+**Jaden Casing Strings Cata**
+* Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
+
+```
+String.prototype.toJadenCase = function () {
+    let lower = this.toLowerCase();
+    arr = lower.split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1));
+    return arr.join(' ');
+  };
+```
+---
+
 ### Certifications
 
 * Nov 2020:   **Kubernetes Certified Application Developer (CKAD)**;  
