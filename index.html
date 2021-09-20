@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CV Andrei Karotki</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <script>console.log("Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md\nScreenshot:\nhttps://github.com/andreikorotki/wsproject/blob/master/Screenshot%202021-09-20%20184223.jpg\nDeploy: https://andreikorotki.github.io/rsschool-cv/\nDone 20.09.2021 / deadline 21.09.2021\nScore: 150 / 160\n-[+]вёрстка валидная, https://validator.w3.org/ Result: Document checking completed. No errors or warnings to show. 10/10\n-[+]вёрстка семантическая. Использованы теги header, footer, main, section, address(5*2) Используются заголовки h1,h2, h3, h4 20/20\n-[+]для оформления СV используются css-стили. Используется styles.css 10/10\n-[+]контент размещается в блоке, который горизонтально центрируется на странице 10/10\n-[+]вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки. 10/10\n-[+]есть адаптивное бургер-меню. Ссылки в пунктах меню ведут на основные разделы CV. При кликах по пунктам меню реализована плавная прокрутка по якорям.10/10\n-[+]на странице СV присутствует изображение - фото или аватарка автора CV 10/10\n-[+]контакты для связи и перечень навыков оформлены в виде списка ul > li 10/10\n-[+]CV содержит контакты для связи, краткую информацию о себе, перечень навыков, пример кода (или пример html-разметки, или ссылку на выполненный проект), информацию об образовании и уровне английского 10/10\n-[+]CV содержит пример вашего кода 10/10\n-[+]CV содержит изображения-ссылки на выполненные вами проекты (Passed Projects) 10/10\n-[+]CV выполнено на английском языке 10/10\n-[+]выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка 10/10 \n-[±]Видеорезюме, встроено видео, но не резюме. 5/10\n-[+]дизайн, оформление, качество выполнения CV не ниже чем в примерах CV. Субъективный пункт. [10/10]");</script>
+  <div class="content-container">
+    <div class="columns-wrapper">
+      <div class="left-side">
+        <header>
+            <div class="avatar-container">
+              <img class="avatar" src="assets/images/userpic.jpg" alt="Andrei Karotki Photo">
+            </div>
+            <h1 id="cv-name">Andrei Karotki</h1>
+            <hr class="line">
+            <h2 id="job">Software Engineer</h2>
+        </header>
+
+        <div class="nav-side-menu normal-text-style">
+                <div class="menu-list">
+                    <ul id="menu-content" class="menu-content collapse out">
+                        <li data-toggle="collapse" data-target="#menu" class="collapsed">
+                          <a href="#"> <span class="arrow"></span><h2 class="section-header menu-color">Menu</h2> </a><hr class="line">
+                        </li>
+                        <li>
+                          <ul class="collapse lang menu" id="menu">
+                            <li class="skills-li-lang "><a class="link-text menu" href="#about">> About</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#contacts">> Contacts</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#skills">> Skills</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#lang">> Languages</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#education">> Education</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#experience">> Experience</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#certification">> Certification</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#presentation">> Presentation</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#code">> Code Example</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="normal-text-style">
+            <h2 class="section-header" id='contacts'>Contact</h2>
+            <hr class="line">
+            <address class="normal-text-style contacts">
+                <ul class="normal-text">
+                    <li class="list-text">
+                        <img class="logo-img" src="assets/images/home.png" alt="home"> Minsk, Belarus
+                    </li>
+                    <li class="list-text">
+                        <img class="logo-img" src="assets/images/telephone-symbol-button.png" alt="call"> +375(29)352-05-97
+                    </li>
+                    <li class="list-text">
+                        <img class="logo-img" src="assets/images/skype-logo.png" alt="skype"> a_karotki
+                    </li>
+                    <li class="list-text">
+                        <img class="logo-img" src="assets/images/discord.png" alt="discord"> AndreiKa(andreikorotki)
+                    </li>
+                    <li class="link-text">
+                        <img class="logo-img" src="assets/images/envelope.png" alt="mail">
+                        <a href="mailto:andreikorotki@gmail.com">andreikorotki@gmail.com</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+        <div>
+          <h2 class="section-header"  id='skills'>Technical Skills</h2>
+          <hr class="line">
+          <div class="content">
+              <ul class="skills">
+                <li class="skills-group">
+                  <ul class="skills-li">
+                    <li class="skills-li-item"></li>
+                    <li class="skills-li-item"></li>
+                    <li class="skills-li-item"></li>
+                    <li class="skills-li-item"></li>
+                    <li class="skills-li-item"></li>
+                    <li class="skills-li-item skills-li-item-empty"></li>
+                    <li>
+                      <p class="skills-text">PLSQL/OracleDB</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="skills-group">
+                    <ul class="skills-li">
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li>
+                        <p class="skills-text">Docker/k8s</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-group">
+                    <ul class="skills-li">
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li>
+                        <p class="skills-text">Git</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-group">
+                    <ul class="skills-li">
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li>
+                        <p class="skills-text">Python/Django</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-group">
+                    <ul class="skills-li">
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li>
+                        <p class="skills-text">JS/HTML/CSS</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-group">
+                    <ul class="skills-li">
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li class="skills-li-item skills-li-item-empty"></li>
+                      <li>
+                       <p class="skills-text">Hybris</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+        </div>
+        <div>
+          <h2 class="section-header" id='lang'>Languages</h2>
+          <hr class="line">
+          <div class="content">
+              <ul class="lang">
+                <li class="skills-li-lang">Belarusian(Native)</li>
+                <li class="skills-li-lang">Russian(Native)</li>
+                <li class="skills-li-lang">English(B1)</li>
+              </ul>
+          </div>
+        </div>
+        <div class="normal-text-style">
+          <div class="section-header">
+              <a class="link_logo" href="https://www.instagram.com/a.karotki/"><img class="logo-img"
+                      src="assets/images/instagram-symbol.png" alt="instagram"></a>
+              <a class="link_logo" href="https://github.com/andreikorotki"><img class="logo-img"
+                      src="assets/images/github-logo.png" alt="github"></a>
+              <a class="link_logo" href="https://www.linkedin.com/in/andrei-karotki-24226596/"><img
+                      class="logo-img" src="assets/images/linkedin-sign.png" alt="linkedin"></a>
+          </div>
+          <br>
+      </div>
+
+      </div>
+
+      <div class="right-side">
+        <main>
+          <section>
+            <h2 class="raw-section-header" id="about">About</h2>
+            <hr class="line">
+            <p class="about-text">
+                <span>Experienced Software Engineer specialized in telecom domain. </span>
+                <span>Skilled in Billing and eCommerce solutions, relational and non-relational databases; PL/SQL,
+                    Python, Java programming languages; CI/CD processes.</span>
+                <span>Strongly focused on delivering quality solutions that meet customer needs and drive strategic
+                    goals.</span>
+            </p>
+          </section>
+          <section>
+              <h2 class="raw-section-header" id='Education'>Education</h2>
+              <hr class="line">
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">2007 - 2012</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Belarusian State University of Informatics and Radioelectronics <br>
+                      <em>Bachelor Engineer Degree, Telecommunication;</em>
+                  </p>
+                </div>
+              </div>
+          </section>
+          <section>
+              <h2 class="raw-section-header" id="experience">Work Experience</h2>
+              <hr class="line">
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Jul 2019 - Now</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Senior Software Engineer | FLLC SEAVUS<br>
+                      <em>Billing Support System (ZSmart) integration project, BSCS system support</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Mar - Jul 2019</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Senior Database Developer | IDT Belarus<br>
+                      <em>Carrier billing development, fraud management system improvements</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">2014 - 2019</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Programming Engineer | A1 Belarus<br>
+                      <em>Billing and E-commerce Group, completed SAP HYBRIS integration Project.</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">2012 - 2014</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Engineer of Network Online Control | A1 Belarus (velcom)<br>
+                      <em>Core and Radio network monitoring, second-line subscribers support. </em>
+                  </p>
+                </div>
+              </div>
+          </section>
+          <section>
+              <h2 class="raw-section-header" id="certification">Certifications</h2>
+              <hr class="line">
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Nov 2020</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Kubernetes Certified Application Developer (CKAD)<br>
+                      <em>udemy.com</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Oct 2020</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">AWS Certified Solutions Architect - Associate (SAA-C02) Course<br>
+                      <em>Linkedin Learning</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Apr 2019</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">Java Spring Framework 4.0 IBA Course<br>
+                      <em>IBA Institure</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Oct 2016</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">ARC-001 Software architecture fundamental practices<br>
+                      <em>Luxoft</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Dec 2016</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">SAP HYBRIS Commerce Basic, Functional Analytics, Best Practices<br>
+                      <em>TeamIdea</em>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="period">
+                  <h4 class="h4-period">Jan 2018</h4>
+                </div>
+                <div class="period-info">
+                  <p class="chapter">ICAgile Certigied Professional ICP Course<br>
+                      <em>AgileLAB.org</em>
+                  </p>
+                </div>
+              </div>
+          </section>
+          <section>
+            <h2 class="raw-section-header" id="presentation">Self Presentation</h2>
+            <hr class="line">
+            <div class="self-presentation">
+              <iframe class="video-container" src="https://www.youtube.com/embed/KyvnCmoheyU" title="YouTube video player"  allowfullscreen></iframe>
+            </div>
+          </section>
+          <section class="code" id="code">
+            <h2 class="raw-section-header">Code Example</h2>
+            <hr class="line">
+            <p class="about-text"><span class="bold-text">Jaden Casing Strings Cata.</span><br/> Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.</p>
+            <pre>
+              <code class="javascript">
+  String.prototype.toJadenCase = function () {
+    let splitted = this.toLowerCase().split(' ');
+    arr = splitted.map(item =>
+      item.charAt(0).toUpperCase() + item.slice(1));
+    return arr.join(' ');
+  };
+              </code>
+            </pre>
+          </section>
+
+          <section>
+              <h2 class="raw-section-header">Passed Projects</h2>
+              <hr class="line">
+              <ul class="about-text">
+                  <li>
+                      <span class="bold-text">Whole BSS Stack digital transformation and migration to ZSmart:</span> a
+                      huge project affected all TMF-domains, more than 100 systems should be migrated.
+                      Challenges: Transform legacy Business Processes to Tele Management Best Practices, Unified
+                      Product Catalog design, Convergent Charging and Billing implementation in online-mode, Omni-
+                      Channel ordering approach.
+                      Responsibility: technical solutions preparation, HLD and LLD documents writing, requirements
+                      collection, business processes adaptation.Streams in my responsibility: Product Catalog,
+                      Charging, Provisioning, B2C Self-Care, eCommerce, Partner Management, Fraud Management, Common
+                      Architecture.
+                  </li>
+                  <li>
+                      <span class="bold-text">SAP Hybris eCommerce integration for velcom.by and later for <a href="https://www.a1.by/be/">a1.by</a></span>
+                      Challenges: implement all new velcom.by with a set of features: automated product, prices,
+                      bundles import for all digital and physical products. New ordering process likeservice
+                      activation in 2 clicks, physical products ordering, automated checks, personalization etc.
+                      Responsibility: technical solution lead, enterprise product catalogue development on database
+                      level, PL/SQL API’s development, solutions creation for integration points, data models
+                      transformation.
+                  </li>
+                  <li>
+                      <span class="bold-text">Self-Care App, API’s development(<a href="https://www.a1.by/be/services/mobilnye-prilojeniya/prilozheniye-moy-a1/p/Moi_A1">MyA1</a>)</span>
+                      Target: develop OmniChannel API layer based on TMForum OpenAPI's, as unified standard for
+                      several OpCos (Telecom Austria group). Microservices architecture. Responsibility: data model
+                      development, DB API’s development, business logic implementation and enrich TMF API’s. Billing
+                      Migration(BSCS). Challenges: change old CBOSS solution to Ericsson BSCS without effort to
+                      subscriber and partners, data migration, preparing SQL-scripts, data mapping.
+                  </li>
+              </ul>
+              <br>
+          </section>
+
+        </main>
+        <footer class="footer">
+          <span class="bold-text">© 2021</span>
+          <a href="https://rs.school/js/"><img id="footer-img" src="assets/images/rs_school_js.svg" alt="rsschool logo"></a>
+          <a href="https://github.com/andreikorotki/"><img id="github-img" src="assets/images/GitHub_logo_2013.svg" alt="github andreikorotki"></a>
+        </footer>
+    </div>
+  </div>
+
+  </div>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>
