@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <script>console.log("Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md\nScreenshot:\nhttps://github.com/andreikorotki/wsproject/blob/master/Screenshot%202021-09-20%20184223.jpg\nDeploy: https://andreikorotki.github.io/rsschool-cv/\nDone 20.09.2021 / deadline 21.09.2021\nScore: 150 / 160\n-[+]вёрстка валидная, https://validator.w3.org/ Result: Document checking completed. No errors or warnings to show. 10/10\n-[+]вёрстка семантическая. Использованы теги header, footer, main, section, address(5*2) Используются заголовки h1,h2, h3, h4 20/20\n-[+]для оформления СV используются css-стили. Используется styles.css 10/10\n-[+]контент размещается в блоке, который горизонтально центрируется на странице 10/10\n-[+]вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки. 10/10\n-[+]есть адаптивное бургер-меню. Ссылки в пунктах меню ведут на основные разделы CV. При кликах по пунктам меню реализована плавная прокрутка по якорям.10/10\n-[+]на странице СV присутствует изображение - фото или аватарка автора CV 10/10\n-[+]контакты для связи и перечень навыков оформлены в виде списка ul > li 10/10\n-[+]CV содержит контакты для связи, краткую информацию о себе, перечень навыков, пример кода (или пример html-разметки, или ссылку на выполненный проект), информацию об образовании и уровне английского 10/10\n-[+]CV содержит пример вашего кода 10/10\n-[+]CV содержит изображения-ссылки на выполненные вами проекты (Passed Projects) 10/10\n-[+]CV выполнено на английском языке 10/10\n-[+]выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка 10/10 \n-[±]Видеорезюме, встроено видео, но не резюме. 5/10\n-[+]дизайн, оформление, качество выполнения CV не ниже чем в примерах CV. Субъективный пункт. [10/10]");</script>
   <div class="content-container">
     <div class="columns-wrapper">
       <div class="left-side">
@@ -25,17 +26,19 @@
                         <li data-toggle="collapse" data-target="#menu" class="collapsed">
                           <a href="#"> <span class="arrow"></span><h2 class="section-header menu-color">Menu</h2> </a><hr class="line">
                         </li>
-                        <ul class="collapse lang menu" id="menu">
-                          <li class="skills-li-lang "><a class="link-text menu" href="#about">> About</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#contacts">> Contacts</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#skills">> Skills</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#lang">> Languages</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#education">> Education</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#experience">> Experience</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#certification">> Certification</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#presentation">> Presentation</a></li>
-                          <li class="skills-li-lang"><a class="link-text menu" href="#code">> Code Example</a></li>
-                        </ul>
+                        <li>
+                          <ul class="collapse lang menu" id="menu">
+                            <li class="skills-li-lang "><a class="link-text menu" href="#about">> About</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#contacts">> Contacts</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#skills">> Skills</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#lang">> Languages</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#education">> Education</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#experience">> Experience</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#certification">> Certification</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#presentation">> Presentation</a></li>
+                            <li class="skills-li-lang"><a class="link-text menu" href="#code">> Code Example</a></li>
+                          </ul>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -76,7 +79,9 @@
                     <li class="skills-li-item"></li>
                     <li class="skills-li-item"></li>
                     <li class="skills-li-item skills-li-item-empty"></li>
-                    <p class="skills-text">PLSQL/OracleDB</p>
+                    <li>
+                      <p class="skills-text">PLSQL/OracleDB</p>
+                    </li>
                   </ul>
                 </li>
                 <li class="skills-group">
@@ -87,7 +92,9 @@
                       <li class="skills-li-item"></li>
                       <li class="skills-li-item"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
-                      <p class="skills-text">Docker/k8s</p>
+                      <li>
+                        <p class="skills-text">Docker/k8s</p>
+                      </li>
                     </ul>
                   </li>
                   <li class="skills-group">
@@ -98,7 +105,9 @@
                       <li class="skills-li-item"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
-                      <p class="skills-text">Git</p>
+                      <li>
+                        <p class="skills-text">Git</p>
+                      </li>
                     </ul>
                   </li>
                   <li class="skills-group">
@@ -109,7 +118,9 @@
                       <li class="skills-li-item"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
-                      <p class="skills-text">Python/Django</p>
+                      <li>
+                        <p class="skills-text">Python/Django</p>
+                      </li>
                     </ul>
                   </li>
                   <li class="skills-group">
@@ -120,7 +131,9 @@
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
-                      <p class="skills-text">JS/HTML/CSS</p>
+                      <li>
+                        <p class="skills-text">JS/HTML/CSS</p>
+                      </li>
                     </ul>
                   </li>
                   <li class="skills-group">
@@ -131,7 +144,9 @@
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
                       <li class="skills-li-item skills-li-item-empty"></li>
-                      <p class="skills-text">Hybris</p>
+                      <li>
+                       <p class="skills-text">Hybris</p>
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -302,7 +317,7 @@
             <h2 class="raw-section-header" id="presentation">Self Presentation</h2>
             <hr class="line">
             <div class="self-presentation">
-              <iframe class="video-container" src="https://www.youtube.com/embed/KyvnCmoheyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video-container" src="https://www.youtube.com/embed/KyvnCmoheyU" title="YouTube video player"  allowfullscreen></iframe>
             </div>
           </section>
           <section class="code" id="code">
@@ -320,7 +335,7 @@
               </code>
             </pre>
           </section>
-          <!--
+
           <section>
               <h2 class="raw-section-header">Passed Projects</h2>
               <hr class="line">
@@ -356,7 +371,7 @@
               </ul>
               <br>
           </section>
-          -->
+
         </main>
         <footer class="footer">
           <span class="bold-text">© 2021</span>
@@ -366,6 +381,7 @@
     </div>
   </div>
 
+  </div>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
