@@ -1,1 +1,1 @@
-https://andreikorotki.github.io/rsschool-cv/index.html
+https://andreikorotki.github.io/rsschool-cv/
