@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="content-container">
     <div class="columns-wrapper">
       <div class="left-side">
         <header>
@@ -18,8 +18,29 @@
             <hr class="line">
             <h2 id="job">Software Engineer</h2>
         </header>
+
+        <div class="nav-side-menu normal-text-style">
+                <div class="menu-list">
+                    <ul id="menu-content" class="menu-content collapse out">
+                        <li data-toggle="collapse" data-target="#menu" class="collapsed">
+                          <a href="#"> <span class="arrow"></span><h2 class="section-header menu-color">Menu</h2> </a><hr class="line">
+                        </li>
+                        <ul class="collapse lang menu" id="menu">
+                          <li class="skills-li-lang "><a class="link-text menu" href="#about">> About</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#contacts">> Contacts</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#skills">> Skills</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#lang">> Languages</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#education">> Education</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#experience">> Experience</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#certification">> Certification</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#presentation">> Presentation</a></li>
+                          <li class="skills-li-lang"><a class="link-text menu" href="#code">> Code Example</a></li>
+                        </ul>
+                    </ul>
+            </div>
+        </div>
         <div class="normal-text-style">
-            <h2 class="section-header">Contact</h2>
+            <h2 class="section-header" id='contacts'>Contact</h2>
             <hr class="line">
             <address class="normal-text-style contacts">
                 <ul class="normal-text">
@@ -43,7 +64,7 @@
             </address>
         </div>
         <div>
-          <h2 class="section-header">Technical Skills</h2>
+          <h2 class="section-header"  id='skills'>Technical Skills</h2>
           <hr class="line">
           <div class="content">
               <ul class="skills">
@@ -118,7 +139,7 @@
 
         </div>
         <div>
-          <h2 class="section-header">Languages</h2>
+          <h2 class="section-header" id='lang'>Languages</h2>
           <hr class="line">
           <div class="content">
               <ul class="lang">
@@ -145,7 +166,7 @@
       <div class="right-side">
         <main>
           <section>
-            <h2 class="raw-section-header">About</h2>
+            <h2 class="raw-section-header" id="about">About</h2>
             <hr class="line">
             <p class="about-text">
                 <span>Experienced Software Engineer specialized in telecom domain. </span>
@@ -156,7 +177,7 @@
             </p>
           </section>
           <section>
-              <h2 class="raw-section-header">Education</h2>
+              <h2 class="raw-section-header" id='Education'>Education</h2>
               <hr class="line">
               <div class="content">
                 <div class="period">
@@ -170,7 +191,7 @@
               </div>
           </section>
           <section>
-              <h2 class="raw-section-header">Work Experience</h2>
+              <h2 class="raw-section-header" id="experience">Work Experience</h2>
               <hr class="line">
               <div class="content">
                 <div class="period">
@@ -214,7 +235,7 @@
               </div>
           </section>
           <section>
-              <h2 class="raw-section-header">Certifications</h2>
+              <h2 class="raw-section-header" id="certification">Certifications</h2>
               <hr class="line">
               <div class="content">
                 <div class="period">
@@ -241,7 +262,7 @@
                   <h4 class="h4-period">Apr 2019</h4>
                 </div>
                 <div class="period-info">
-                  <p class="chapter">Spring Framework 4.0<br>
+                  <p class="chapter">Java Spring Framework 4.0 IBA Course<br>
                       <em>IBA Institure</em>
                   </p>
                 </div>
@@ -271,25 +292,25 @@
                   <h4 class="h4-period">Jan 2018</h4>
                 </div>
                 <div class="period-info">
-                  <p class="chapter">ICAgile Certigied Professional ICP<br>
+                  <p class="chapter">ICAgile Certigied Professional ICP Course<br>
                       <em>AgileLAB.org</em>
                   </p>
                 </div>
               </div>
           </section>
           <section>
-            <h2 class="raw-section-header">Self Presentation</h2>
+            <h2 class="raw-section-header" id="presentation">Self Presentation</h2>
             <hr class="line">
             <div class="self-presentation">
-              <iframe width="500" height="300" src="https://www.youtube.com/embed/KyvnCmoheyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video-container" src="https://www.youtube.com/embed/KyvnCmoheyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </section>
-          <section>
+          <section class="code" id="code">
             <h2 class="raw-section-header">Code Example</h2>
             <hr class="line">
             <p class="about-text"><span class="bold-text">Jaden Casing Strings Cata.</span><br/> Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.</p>
             <pre>
-              <code>
+              <code class="javascript">
   String.prototype.toJadenCase = function () {
     let splitted = this.toLowerCase().split(' ');
     arr = splitted.map(item =>
@@ -344,6 +365,15 @@
         </footer>
     </div>
   </div>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
 </html>
